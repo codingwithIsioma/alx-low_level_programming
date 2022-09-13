@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * prints_times_table - prints n times table
+ * print_times_table - prints n times table
  *                      ,starting with 0
  * @n: the number on the table
  */
-void prints_times_table(int n)
+void print_times_table(int n)
 {
 	int i, mult, prod
 
