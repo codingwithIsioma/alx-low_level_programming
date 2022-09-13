@@ -8,10 +8,10 @@
 int main(void)
 {
 	int i;
-        unsigned long num1 = 1, num2 = 2, sum;
+	unsigned long num1 = 1, num2 = 2, sum;
 
 	printf("%lu, %lu, ", num1, num2);
-	for (i = 3; i < 50; ++i)
+	for (i = 2; i < 50; ++i)
 	{
 		sum = num1 + num2;
 		printf("%lu", sum);
