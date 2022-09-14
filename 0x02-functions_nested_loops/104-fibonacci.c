@@ -31,7 +31,7 @@ int main(void)
 
 		if (num1_half2 + num2_half2 > 9999999999)
 		{
-			half += 1;
+			half1 += 1;
 			half2 %= 10000000000;
 		}
 		printf("%lu%lu", half1, half2);
