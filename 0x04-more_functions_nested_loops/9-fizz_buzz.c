@@ -31,5 +31,7 @@ int main(void)
 			continue;
 	}
 
+	printf("\n");
+
 	return (0);
 }
