@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	/* terminating the dest string */
 	for (i = length; i < n; ++i)
-		dest[length] = '\0';
+		dest[i] = '\0';
 
 	return (dest);
 }
