@@ -10,8 +10,8 @@ char *leet(char *str)
 	int i, j;
 
 	/* store the leet codes in pointers*/
-	char *a[] = "aAeEoOtTlL";
-	char *b[] = "4433007711";
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
 
 	/* loop through the string of characters*/
 	for (i = 0; str[i] != '\0'; i++)
