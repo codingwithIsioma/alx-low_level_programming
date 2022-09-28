@@ -7,11 +7,11 @@
 void _puts_recursion(char *s)
 {
 	/*base case*/
-	if (*s == '\0')
-		return (0);
-
-	/*prints the first string (and after the next iteration)*/
-	_putchar(*s);
-	/*iterates to the next char string*/
-	return (_puts_recursion(s + 1));
+	if (*s != '\0')
+	{
+		/*prints the first string (and after the next iteration)*/
+		_putchar(*s);
+		/*iterates to the next char string*/
+		(_puts_recursion(s + 1));
+	}
 }
