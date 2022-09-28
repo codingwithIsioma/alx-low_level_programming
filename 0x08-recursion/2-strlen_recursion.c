@@ -8,7 +8,7 @@
 int _strlen_recursion(char *s)
 {
 	/* checks if the string char is not a null byte*/
-	if (*s != '\0')
+	if (*s == '\0')
 	{
 		return (0);
 	}
