@@ -14,11 +14,11 @@ void _print_rev_recursion(char *s)
 		 * stacks the char from the first to last
 		 */
 		_print_rev_recursion(s + 1);
+		/*
+		 * when it gets to the terminating null byte
+		 * start printing from the top of the stack
+		 * to the bottom (first char of the actual string)
+		 */
+		_putchar(*s);
 	}
-	/*
-	 * when it gets to the terminating null byte
-	 * start printing from the top of the stack
-	 * to the bottom (first char of the actual string)
-	 */
-	_putchar(*s);
 }
