@@ -17,3 +17,7 @@ Task 2 - The best argument against democracy is a five-minute conversation with 
 Task 3 - Neither irony nor sarcasm is argument
 
 	Write a program that multiplies two numbers.
+
+Task 4 - To infinity and beyond
+
+	Write a program that adds positive numbers.
