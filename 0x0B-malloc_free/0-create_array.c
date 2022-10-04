@@ -22,14 +22,14 @@ char *create_array(unsigned int size, char c)
 	/* Allocate the memory space for the array to the pointer*/
 	array = malloc(sizeof(char) * size);
 
+	if (array == NULL)
+		return (NULL);
+
 	for (i = 0; i < size; i++)
 	{
 		/* initializes the first char to @c */
 		array[i] = c;
 	}
-
-	if (array == NULL)
-		return (NULL);
 
 	return (array);
 }
