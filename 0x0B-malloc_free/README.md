@@ -37,3 +37,9 @@ Task 5 - It isn't the mountains ahead to climb that wear you out; it's the pebbl
 	Write a function that concatenates all the arguments of your program.
 
 	Prototype: char *argstostr(int ac, char **av);
+
+Task 6 - I will show you how great I am
+
+	Write a function that splits a string into words.
+
+	Prototype: char **strtow(char *str);
