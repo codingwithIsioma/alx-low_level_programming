@@ -31,3 +31,9 @@ Task 4 -  It's not bragging if you can back it up
 	Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 
 	Prototype: void free_grid(int **grid, int height);
+
+Task 5 - It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
+
+	Write a function that concatenates all the arguments of your program.
+
+	Prototype: char *argstostr(int ac, char **av);
