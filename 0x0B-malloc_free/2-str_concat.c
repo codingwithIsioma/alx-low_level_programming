@@ -12,10 +12,11 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *concated;
-	int i, concat_len = 0, len;
+	int i, concat_len = 0, len = 0;
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
 		s2 = "";
 
