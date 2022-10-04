@@ -19,3 +19,9 @@ Task 2 - He who is not courageous enough to take risks will accomplish nothing i
 	Write a function that concatenates two strings.
 
 	Prototype: char *str_concat(char *s1, char *s2);
+
+Task 3 - If you even dream of beating me you'd better wake up and apologize
+
+	Write a function that returns a pointer to a 2 dimensional array of integers.
+
+	Prototype: int **alloc_grid(int width, int height);
