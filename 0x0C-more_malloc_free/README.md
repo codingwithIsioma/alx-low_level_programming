@@ -20,4 +20,8 @@ Task 2 - _calloc
 
 	Prototype: void *_calloc(unsigned int nmemb, unsigned int size);
 
-Task 3 -  
+Task 3 - array_range
+
+	Write a function that creates an array of integers.
+
+		Prototype: int *array_range(int min, int max);  
