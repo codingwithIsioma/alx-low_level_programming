@@ -8,4 +8,8 @@ Task 0 - Trust no one
 
 	Prototype: void *malloc_checked(unsigned int b);
 
-Task 1 - 
+Task 1 - string_nconcat
+
+	Write a function that concatenates two strings.
+
+	Prototype: char *string_nconcat(char *s1, char *s2, unsigned int n); 
