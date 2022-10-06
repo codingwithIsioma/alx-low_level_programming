@@ -24,4 +24,10 @@ Task 3 - array_range
 
 	Write a function that creates an array of integers.
 
-		Prototype: int *array_range(int min, int max);  
+		Prototype: int *array_range(int min, int max);
+
+Task 4 - _realloc
+
+	Write a function that reallocates a memory block using malloc and free
+
+		Prototype: void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);  
