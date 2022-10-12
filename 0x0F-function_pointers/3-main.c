@@ -4,6 +4,8 @@
 
 /**
  * main - Tests code
+ * @argc: Argument count
+ * @argv: Arguemnt vector
  * Return: Always 0
  */
 int main(int argc, char *argv[])
