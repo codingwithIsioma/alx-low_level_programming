@@ -32,7 +32,7 @@ void print_all(const char * const format, ...)
 			case 's':
 				str = va_arg(print_list, char*);
 				if (str == NULL)
-					printf("(nil)");
+					str = "(nil)";
 				printf("%s", str);
 				flag = 0;
 				break;
@@ -40,7 +40,6 @@ void print_all(const char * const format, ...)
 				flag = 1;
 				break;
 		}
-		/* Before i increments */
 		if (format[i + 1] != '\0' && flag == 0)
 			printf(", ");
 		i++;
